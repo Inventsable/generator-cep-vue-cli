@@ -1,0 +1,79 @@
+{
+  "name": "generator-cep-vue-cli",
+  "version": "0.0.0",
+  "description": "Generator for Adobe CEP extensions with Vue-CLI-3",
+  "homepage": "https://github.com/Inventsable/cep-vue-cli-plus",
+  "author": {
+    "name": "Tom Scharstein",
+    "email": "trscharstein@gmail.com",
+    "url": "https://www.inventsable.cc"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "adobe",
+    "cep",
+    "vue-cli-3",
+    "vue",
+    "yeoman-generator"
+  ],
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-config-xo": "^0.25.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "husky": "^1.2.0",
+    "jest": "^24.8.0",
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.15.2",
+    "yeoman-assert": "^3.1.0",
+    "yeoman-test": "^1.7.0"
+  },
+  "engines": {
+    "npm": ">= 4.0.0"
+  },
+  "dependencies": {
+    "boxen": "^3.2.0",
+    "chalk": "^2.1.0",
+    "fs-extra": "^8.0.1",
+    "yeoman-generator": "^2.0.1",
+    "yosay": "^2.0.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.json": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "xo",
+      "prettier"
+    ],
+    "env": {
+      "jest": true,
+      "node": true
+    },
+    "rules": {
+      "prettier/prettier": "error"
+    },
+    "plugins": [
+      "prettier"
+    ]
+  },
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "jest"
+  },
+  "repository": "Inventsable/generator-cep-vue-cli",
+  "license": "MIT"
+}
