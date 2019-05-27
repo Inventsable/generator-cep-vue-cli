@@ -1,6 +1,6 @@
 # generator-cep-vue-cli
 
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+[![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
 ## Generate an Adobe CEP extension in a few simple steps:
 
