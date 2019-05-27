@@ -1,10 +1,10 @@
 # generator-cep-vue-cli
 
-> Generator for Adobe CEP extensions with Vue-CLI-3
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
-## **UNDER CONSTRUCTION**
+## Generate an Adobe CEP extension in a few simple steps:
 
-![](https://thumbs.gfycat.com/FinishedSplendidGypsymoth-size_restricted.gif)
+![](https://thumbs.gfycat.com/GloriousAlarmingInchworm-size_restricted.gif)
 
 ## Installation
 
@@ -20,54 +20,23 @@ Then generate your new project:
 ```bash
 # Recommended inside ../AppData/Roaming/CEP/extensions
 yo cep-vue-cli
+
+# Prompt for name
+# Prompt for template
+# Prompt for Adobe apps to be included in manifest and typescript
+# Prompt for base localhost port
 ```
 
 ## Templates
 
 See more information about usage:
 
-- [Basic](https://github.com/Inventsable/cep-vue-cli-basic) (Barebones, only Webpack & Vue CLI-3)
+- [Bare](https://github.com/Inventsable/cep-vue-cli-bare) (No extras)
+- [Basic](https://github.com/Inventsable/cep-vue-cli-basic) (Barebones with utility components)
 - [Router](https://github.com/Inventsable/cep-vue-cli-router) (Basic & Vue Router)
 - [Plus](https://github.com/Inventsable/cep-vue-cli-plus) (Vuetify, Router & Lottie)
 
 ---
-
-```bash
-                                    .*(#%#(*
-                              @@@@@@@@@@@@@@@@@@@@(
-                           @@@@@@@@@@@@@@@@@@@@@@@@@@&
-                         .@@@@@@@@@@@@@@@@@@@@@@@@@@@@@,
-               .......   .@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%
-             ........     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-            ......        #@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-      ...  ..... ......#@@*@@@@@@@@@@@@&@&&%@@@@@@@@@@@
-      .... .............   %%%%%%%%%&&&%@&&@@%%%%%%%%%.@@*
-      ............,%....   #%%%%%%%%%@@&@@&%%%%%%%%%%%   #@*
-       ........../%    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@,
-         .........    .#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   @@
-            ................*************************,...     (@
-            ..............,........./*.....//.........,...     #@
-            .......    ....,.........,,..../..........,...      #@
-           %%%%,.       .......%&&&&&&//&&&&&&&&&,.....          @@
-           %%%%             .&&&&&&&&&&&*&&&&&&&&&&&&&            @
-          /%%%%            &&&&&&&&&&&&&@@&&&&&&&&&&&&&&          @%
-          &%%&@.         &&&&&&&&&&&&&,(##,&&&&&&&&&&&&&&.        (@
-          @@@@@&       &&&&&&&&&&&&&,..///,..%&&&&&&&&&&&&,       ,@
-          @@@@&%           /#%%(,................/#%%(.           *@
-          &@@@@@@            .......................              %@
-          /%%%%@@@(          .......................              @*
-           @@@@@@@@@,        .........*////.........             ,@
-           /@@@@@@@@@@@@*    (...................../             @(
-            @@@@@@@@@@@@@@@@@&%%*...............(%%%@@          @@
-             @@@@@@@@@@@&@@@@&%%%%%%%%%%%%%%%%%%%%%%&&&        @@
-              %@@@@@@@@%@@@@@@%%%%%%%%%%@% %%%%%%%%@@@&&&%%   @%
-               .@@@@@@%@@@@@@@@@@&%%%%%%&%%%%%%@@@@@@@@&&&%&&@.
-                 &@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&%@@@&&%&
-                   &@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@@@&
-                     ,@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*
-                        .@@&%%%%%%%%*,*((((,,%%%%%%&@,
-                            .@@@@@@@*,%@@@@,,@@@@,
-```
 
 ## Getting To Know Yeoman
 

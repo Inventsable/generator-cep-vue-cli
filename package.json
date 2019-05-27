@@ -1,6 +1,6 @@
 {
   "name": "generator-cep-vue-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generator for Adobe CEP extensions with Vue-CLI-3",
   "homepage": "https://github.com/Inventsable/generator-cep-vue-cli",
   "author": {
@@ -37,7 +37,10 @@
   "dependencies": {
     "boxen": "^3.2.0",
     "chalk": "^2.1.0",
+    "download-git-repo": "^2.0.0",
     "fs-extra": "^8.0.1",
+    "ora": "^3.4.0",
+    "shelljs": "^0.8.3",
     "yeoman-generator": "^2.0.1",
     "yosay": "^2.0.1"
   },
