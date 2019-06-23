@@ -38,6 +38,18 @@ See more information about usage:
 
 ---
 
+## Commands
+
+Each template comes with 5 commands baked in ([see details here](https://github.com/Inventsable/CEP-Self-Signing-Panel#what-do-they-do)):
+
+- `npm run help` - A full list of the commands available and descriptions.
+- `npm run switch` - Reports whether in developer or production context and can switch automatically.
+- `npm run update` - Reports current version of panel in manifest and prompts to update Major, Minor, or Micro.
+- `npm run register` - Reports the current user data (if any) and prompts to save new info to be used in certificates.
+- `npm run sign` - Automatically stages and signs the extension, placing it in a `./archive` directory within the current panel.
+
+---
+
 ## Getting To Know Yeoman
 
 - Yeoman has a heart of gold.
