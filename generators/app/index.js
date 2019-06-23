@@ -233,6 +233,13 @@ class CEPVueCLIGenerator extends Generator {
               `   Then launch your desired host app and find in Window > Extensions`
             );
             this.log();
+            this.log(
+              `You can use ${chalk.yellow(
+                "npm run help"
+              )} at any time inside the panel to see a full list of commands.`
+            );
+            this.log();
+            return "";
           });
         });
       })
