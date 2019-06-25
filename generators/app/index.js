@@ -99,7 +99,7 @@ const requireValidPort = value => {
     : "Must be a valid Port between 1024 and 65534";
 };
 const requireOneValue = value => {
-  return value.length > 1 ? true : "Must select at least one";
+  return value.length >= 1 ? true : "Must select at least one";
 };
 
 // https://yeoman.io/authoring/user-interactions.html
@@ -107,7 +107,8 @@ class CEPVueCLIGenerator extends Generator {
   async prompting() {
     // Have Yeoman greet the user
     this.log(yosay(`Welcome to the ${chalk.blue("cep-vue-cli")} generator!`));
-
+    this.log("   Documentation can be found here:");
+    this.log("   https://github.com/Inventsable/generator-cep-vue-cli");
     // Sequence of message prompts
     // https://github.com/SBoudrias/Inquirer.js#prompt-types
     this.answers = await this.prompt([
