@@ -125,19 +125,19 @@ class CEPVueCLIGenerator extends Generator {
         choices: [
           {
             name: "Bare (Absolute minimum)",
-            value: "cep-vue-cli-bare"
+            value: "cep-vue-cli-bare2x"
           },
           {
             name: "Basic (Include utility components)",
-            value: "cep-vue-cli-basic"
+            value: "cep-vue-cli-basic2x"
           },
           {
             name: "Router (Basic and Vue Router)",
-            value: "cep-vue-cli-router"
+            value: "cep-vue-cli-router2x"
           },
           {
             name: "Plus (Vuetify, Router, Lottie)",
-            value: "cep-vue-cli-plus"
+            value: "cep-vue-cli-plus2x"
           }
         ],
         validate: requireOneValue
@@ -282,8 +282,8 @@ class CEPVueCLIGenerator extends Generator {
         const host = CEP_HOSTLIST.find(part => {
           return part.name === item;
         });
-        let str = `\r\n    <Host Name="${host.name}" Port="${this.answers
-          .portNum + i}" />`;
+        let str = `\r\n            <Host Name="${host.name}" Port="${this
+          .answers.portNum + i}" />`;
         mirror.push(str);
       });
       resolve(mirror.join(""));
