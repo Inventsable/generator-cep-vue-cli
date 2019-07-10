@@ -56,7 +56,7 @@ const CEP_HOSTLIST = [
   },
   {
     name: "PPRO",
-    version: "[23,99.9]"
+    version: "[13,99.9]"
   },
   {
     name: "AUDT",
