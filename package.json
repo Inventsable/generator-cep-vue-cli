@@ -1,6 +1,6 @@
 {
   "name": "generator-cep-vue-cli",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Generator for Adobe CEP extensions with Vue-CLI-3",
   "homepage": "https://github.com/Inventsable/generator-cep-vue-cli",
   "author": {

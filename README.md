@@ -31,10 +31,10 @@ yo cep-vue-cli
 
 See more information about usage:
 
-- [Bare](https://github.com/Inventsable/cep-vue-cli-bare) (No extras)
-- [Basic](https://github.com/Inventsable/cep-vue-cli-basic) (Barebones with utility components)
-- [Router](https://github.com/Inventsable/cep-vue-cli-router) (Basic & Vue Router)
-- [Plus](https://github.com/Inventsable/cep-vue-cli-plus) (Vuetify, Router & Lottie)
+- [Bare](https://github.com/Inventsable/cep-vue-cli-bare2x) (No extras)
+- [Basic](https://github.com/Inventsable/cep-vue-cli-basic2x) (Barebones with utility components)
+- [Router](https://github.com/Inventsable/cep-vue-cli-router2x) (Basic & Vue Router)
+- [Plus](https://github.com/Inventsable/cep-vue-cli-plus2x) (Vuetify, Router & Lottie)
 
 ---
 
@@ -50,12 +50,11 @@ Each template comes with 5 commands baked in ([see details here](https://github.
 
 ---
 
-## Getting To Know Yeoman
+## Extras and Add-ons
 
-- Yeoman has a heart of gold.
-- Yeoman is a person with feelings and opinions, but is very easy to work with.
-- Yeoman can be too opinionated at times but is easily convinced not to be.
-- Feel free to [learn more about Yeoman](http://yeoman.io/).
+- [starlette](https://github.com/Inventsable/starlette) _(Shipped in all templates)_ - Color and theming engine that handles all host app colors and exposes them as reactive CSS variables to save you the need to do any theme or color logic yourself.
+- [leylo](https://github.com/Inventsable/leylo) - Library to integrate a Firebase backend into any panel with a single command and line of code, providing over 40 CRUD actions for Firestore database.
+- [FS Example](https://github.com/Inventsable/CEP-FS-Example) - Demonstration of how to include `require()` for both Dev and Production contexts (needed due to being mixed content within an iframe while in Developer context)
 
 ## License
 
