@@ -1,10 +1,23 @@
 # generator-cep-vue-cli
 
-[![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
+[![NPM version][npm-image]][npm-url]
 
 ## Generate an Adobe CEP extension in a few simple steps:
 
 ![](https://thumbs.gfycat.com/GloriousAlarmingInchworm-size_restricted.gif)
+
+---
+
+## Contributors
+
+Special thanks to Adam and Eric for their invaluable (and shockingly free) help
+
+| <img src="https://avatars2.githubusercontent.com/u/37279677?s=460&v=4" alt="adam" width="100"/> | <img src="https://avatars1.githubusercontent.com/u/8580225?s=460&v=4" alt="adam" width="100"/> | <img src="https://avatars0.githubusercontent.com/u/9142587?s=460&v=4" alt="eric" width="100"/> |
+| :---------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: |
+|                        [Tom Scharstein](https://github.com/Inventsable)                         |                          [Adam Plouff](https://github.com/adamplouff)                          |                       [Eric Robinson](https://github.com/ericdrobinson)                        |
+|                                             Creator                                             |                                        General Wizardry                                        |                                       Inspector General                                        |
+
+---
 
 ## Installation
 
@@ -54,7 +67,7 @@ Each template comes with 5 commands baked in ([see details here](https://github.
 
 - [starlette](https://github.com/Inventsable/starlette) _(Shipped in all templates)_ - Color and theming engine that handles all host app colors and exposes them as reactive CSS variables to save you the need to do any theme or color logic yourself.
 - [leylo](https://github.com/Inventsable/leylo) - Library to integrate a Firebase backend into any panel with a single command and line of code, providing over 40 CRUD actions for Firestore database.
-- [FS Example](https://github.com/Inventsable/CEP-FS-Example) - Demonstration of how to include `require()` for both Dev and Production contexts (needed due to being mixed content within an iframe while in Developer context)
+- ~~[FS Example](https://github.com/Inventsable/CEP-FS-Example) - Demonstration of how to include `require()` for both Dev and Production contexts (needed due to being mixed content within an iframe while in Developer context)~~ **No longer needed!** Panels now automatically work with `require()` with no additional steps regardless of context.
 
 ## License
 
