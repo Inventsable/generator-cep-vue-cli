@@ -125,19 +125,19 @@ class CEPVueCLIGenerator extends Generator {
         choices: [
           {
             name: "Bare (Absolute minimum)",
-            value: "cep-vue-cli-bare2x"
+            value: "cep-vue-cli-bare3x"
           },
           {
             name: "Basic (Include utility components)",
-            value: "cep-vue-cli-basic2x"
+            value: "cep-vue-cli-basic3x"
           },
           {
             name: "Router (Basic and Vue Router)",
-            value: "cep-vue-cli-router2x"
+            value: "cep-vue-cli-router3x"
           },
           {
-            name: "Plus (Vuetify, Router, Lottie)",
-            value: "cep-vue-cli-plus2x"
+            name: "Plus (Vuetify, Router, Modal, Lottie)",
+            value: "cep-vue-cli-plus3x"
           }
         ],
         validate: requireOneValue
