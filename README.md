@@ -1,6 +1,8 @@
-# generator-cep-vue-cli
+# NOTICE
 
-[![NPM version][npm-image]][npm-url]
+## Want something even better? Use the new version [bombino](https://github.com/Inventsable/bombino) instead.
+
+---
 
 ## Generate an Adobe CEP extension in a few simple steps:
 
